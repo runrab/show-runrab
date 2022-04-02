@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="Zh-CN">
+
+<head>
+  <meta charset="utf-8">
+  <base target="_blank" />
+  <title>RunRabの项目展示</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1,minimum-scale=1,user-scalable=no">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="RunRabの项目展示">
+  <meta property="og:url" content="https://show.runrab.com/">
+  <meta property="og:site_name" content="RunRabの项目展示">
+  <meta property="og:description" content="show.runrab.com">
+  <meta property="og:image" content="img/author.webp">
+  <!-- Link Swiper's CSS -->
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href=" favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+  <!-- Swiper -->
+
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <!--模板内容===============================================================================================-->
+      <div class="swiper-slide">
+        <div class="card">
+          <div class="sliderText">
+            <h3>app</h3>
+          </div>
+          <div class="demo-img">
+            <img alt="index-5d4b31c5.png" src="assets/1.png" width="" height="" >
+          </div>
+          <div class="content">
+            <p>1.  高校毕业生去向跟踪系统</p>
+            <p>2. app端 前端uniapp 后端springboot</p>
+            <p>3. app下载地址 https://file.runrab.com</p>
+            <br>
+            <br>
+            <center>
+              <a href="https://appzut.runrab.com/">H5体验</a
+              </center>
+          </div>
+        </div>
+      </div>
+      <!-- start ===============================================================================================-->
+      <div class="swiper-slide">
+        <div class="card">
+          <div class="sliderText">
+            <h3>web管理端</h3>
+          </div>
+          <div class="demo-img">
+            <img alt="index-384f5499.png" src="assets/2.png" width="" height="" >
+          </div>
+          <div class="content">
+            <p>1. 高校毕业生去向跟踪系统</p>
+            <p>2. 后台端 前端ant-design</p>
+            <p>3. 后端springboot</p>
+            <br>
+            <br>
+            <center>
+              <a href="https://webzut.runrab.com">访问网站</a>
+            </center>
+          </div>
+        </div>
+      </div>
+
+      <!-- end ===============================================================================================-->
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="js/swiper.min.js"></script>
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 30,
+        stretch: 0,
+        depth: 200,
+        modifier: 1,
+        slideShadows: true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
+</body>
+
+</html>
